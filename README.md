@@ -82,10 +82,20 @@ Se determina que:
 
 Se seleccionan tres compañías (Monster Beverage, Tesla INC, Nvidia). Se analiza su data histórica de los últimos 5 años <br> 
 Para los criterios de selección se tiene en cuenta el presente impulso que tienen los sectores de Energía y Tecnología como el crecimiento que han tenido las empresas en los últimos años. 
-  
 
-Se desarollan un Dashboard en PowerBi que permite:
+<img src="_src/image_4.png" width="600" height="300px">  
 
-- Comparar las por medio de un grafico de areas el 
+Se desarrollan un Dashboard en PowerBi que permite:
 
-*Los procesos realizados para el desarrollo del dashboard están en * [**3.dashboard.pbix**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/2.EDA_report.ipynb)<hr>
+- Comparar la evolución del precio de las compañías por medio de un gráfico de áreas con los filtros (5 días, 1 mes, 1 año y 5 años).
+- Establecer métricas y kpi como:<br>
+
+*crecimiento anual:* % porcentaje de cuanto crece una compañía respecto al anterior año<br>
+*variación %:* promedio de tanto varía el precio respecto a una fecha<br>
+*volatilidad:* determina la estabilidad, que tanto fluctúa el precio <br>
+*volumen:* cantidad de activos presentes<br>
+
+
+<img src="_src/image_5.png" width="600" height="300px">  
+
+*Los procesos realizados para el desarrollo del dashboard están en:* [**3.dashboard.pbix**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Dashboard/3.dashboard.pbixb)<hr>
