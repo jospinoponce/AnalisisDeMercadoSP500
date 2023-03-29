@@ -6,4 +6,4 @@
 
 ## 1. Introducción
 
-Se analizan los datos de las compañias presentes en el  índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) 
+Se analizan los datos de las compañias presentes en el  índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) para mediante su historico observar el comportamiento de las empresas pertenecientes al Index.  Se seleccionan compañias prometedoras 
