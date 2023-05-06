@@ -1,12 +1,12 @@
-# <h1> Pj_05-002 Analisís de Mercado Bursatíl a compañias pertenecientes al índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) </h1> 
+# <h1> Pj_05-002 Análisis de Mercado Bursátil a compañías pertenecientes al índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) </h1> 
 ## **HENRY BOOTCAMP | Proyecto Individual Nº2**
 <hr>
 
-*El presente proyecto se desarrolla para dar cumplimiento a las actividades planteadas en la etapa de labs en el Bootcamp de Data Science de [Soy Henry](https://www.soyhenry.com/). Busca analizar la situación del mercado bursátil de los últimos 20 años y seleccionar compañias potenciales que puedan generar rendimientos de activos financieros al momento de llevar a cabo una inversión en el S&P 500.*<br>
+*El presente proyecto se desarrolla para dar cumplimiento a las actividades planteadas en la etapa de labs en el Bootcamp de Data Science de [Soy Henry](https://www.soyhenry.com/). Busca analizar la situación del mercado bursátil de los últimos 20 años y seleccionar compañías potenciales que puedan generar rendimientos de activos financieros al momento de llevar a cabo una inversión en el S&P 500.*<br>
 
 ## 1. Introducción
 
-Se analizan los datos de las compañías presentes en el índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) en [Yahoo Finance](https://finance.yahoo.com/) e [Investing.com](https://www.investing.com/) para mediante el histórico de sus métricas durante los ultimos 23 años en el mercado, establecer la selección de tres alternativas prometedoras que puedan tener panoramas favorables al momento de realizar una futura inversión. Se desarrolla un Dashboard en PowerBi que compara los aspectos más relevantes de las compañías seleccionadas.
+Se analizan los datos de las compañías presentes en el índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) en [Yahoo Finance](https://finance.yahoo.com/) e [Investing.com](https://www.investing.com/) para mediante el histórico de sus métricas durante los últimos 23 años en el mercado, establecer la selección de tres alternativas prometedoras que puedan tener panoramas favorables al momento de realizar una futura inversión. Se desarrolla un Dashboard en PowerBi que compara los aspectos más relevantes de las compañías seleccionadas.
 <hr>
 
 ## 2. Desarrollo
@@ -21,7 +21,7 @@ Se analizan los datos de las compañías presentes en el índice SP500 [(Standar
 
 ## 3. Recursos implementados
 
-Python Version: 3.9<br>
+Python Versión: 3.9<br>
 Packages:  Pandas, Matplotlib, Seaborn<br>
 Yahoo Finance API<br>
 Microsoft PowerBi <hr>
@@ -43,18 +43,17 @@ El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
 
 ### 2.2. Análisis Exploratorio de datos EDA
 
-Se usan las librerias de Matplotlib y Seaborn para el desarrollo de gráficas que permitan analizar la distribución de los datos previamente transformados.<br>
+Se usan las librerías de Matplotlib y Seaborn para el desarrollo de gráficas que permitan analizar la distribución de los datos previamente transformados.<br>
 
 Se determina que:
 
-*De la lista de las compañias que integran el Index S&P 500 la mayoria hace parte de los sectores: Financials, Health, Industrials e Information Technology.*
+*De la lista de las compañías que integran el Index S&P 500 la mayoría hace parte de los sectores: Financials, Health, Industrials e Information Technology.*
 
 <img src="_src/image_1.png" width="400" height="300px">
 
-*El mejor día para invertir es el martes. Ya Todos las compañías obtienen su recio máximo en sus acciones.*
+*El mejor día para invertir es el martes. Ya Todos las compañías obtienen su precio máximo en sus acciones.*
 
-
-| sector                 | lunes       | martes      | miercoles   | jueves      | viernes     |
+| sector                 | lunes       | martes      | miércoles   | jueves      | viernes     |
 |------------------------|-------------|-------------|-------------|-------------|-------------|
 | Communication Services | 50.743.653  | 50.953.955  | 50.775.517  | 50.891.826  | 50.717.519  |
 | Consumer Discretionary | 112.008.030 | 113.043.683 | 112.475.725 | 112.672.223 | 112.471.914 |
@@ -95,7 +94,7 @@ Se desarrollan un Dashboard en PowerBi que permite:
 *volatilidad:* determina la estabilidad, que tanto fluctúa el precio <br>
 *volumen:* cantidad de activos presentes<br>
 
-
 <img src="_src/image_5.png" width="600" height="300px">  
 
 *Los procesos realizados para el desarrollo del dashboard están en:* [**3.dashboard.pbix**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Dashboard/3.dashboard.pbixb)<hr>
+
