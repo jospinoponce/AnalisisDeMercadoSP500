@@ -86,8 +86,8 @@ Para los criterios de selección se tiene en cuenta el presente impulso que tien
 
 Se desarrollan un Dashboard en PowerBi que permite:
 
-- Comparar la evolución del precio de las compañías por medio de un gráfico de áreas con los filtros (5 días, 1 mes, 1 año y 5 años).
-- Establecer métricas y kpi como:<br>
+- Comparar la evolución del precio de las compañías por  filtros anuales.
+- Analizar métricas y kpi como:<br>
 
 *crecimiento anual:* % porcentaje de cuanto crece una compañía respecto al anterior año<br>
 *variación %:* promedio de tanto varía el precio respecto a una fecha<br>
