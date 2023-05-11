@@ -9,24 +9,18 @@
 Se analizan los datos de las compañías presentes en el índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) en [Yahoo Finance](https://finance.yahoo.com/) e [Investing.com](https://www.investing.com/) para mediante el histórico de sus métricas durante los últimos 23 años en el mercado, establecer la selección de tres alternativas prometedoras que puedan tener panoramas favorables al momento de realizar una futura inversión. Se desarrolla un Dashboard en PowerBi que compara los aspectos más relevantes de las compañías seleccionadas.
 <hr>
 
-## 2. Desarrollo
 
-**2.1. ETL Limpieza de datos:**
 
-**2.2. EDA** 
-
-**2.3. Dashboard**
-
-<hr>
-
-## 3. Recursos implementados
+## 2. Recursos implementados
 
 Python Versión: 3.9<br>
 Packages:  Pandas, Matplotlib, Seaborn<br>
 Yahoo Finance API<br>
 Microsoft PowerBi <hr>
 
-### 2.1. ETL Limpieza de datos
+## 3. Desarrollo
+
+### 3.1 ETL Limpieza de datos
 
 El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
 
@@ -41,9 +35,13 @@ El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
 
 *Los procesos realizados para el ETL están en el notebook:* [**1.ETL**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/1.ETL_report.ipynb)<hr>
 
-### 2.2. Análisis Exploratorio de datos EDA
+### 3.2 Análisis Exploratorio de datos EDA
 
 Se usan las librerías de Matplotlib y Seaborn para el desarrollo de gráficas que permitan analizar la distribución de los datos previamente transformados.<br>
+
+Se analiza  la rentabilidad promedio durante los últimos 23 años.
+
+<img src="_src/image.png" width="800" height="400px">
 
 Se determina que:
 
@@ -77,7 +75,9 @@ Se determina que:
 
 *Los procesos realizados para el EDA están en el notebook:* [**2.EDA**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/2.EDA_report.ipynb)<hr>
 
-**2.3. Dashboard**
+## 4 Resultados
+
+### 4.1 Dashboard
 
 Se seleccionan tres compañías (Monster Beverage, Tesla INC, Nvidia). Se analiza su data histórica de los últimos 5 años <br> 
 Para los criterios de selección se tiene en cuenta el presente impulso que tienen los sectores de Energía y Tecnología como el crecimiento que han tenido las empresas en los últimos años. 
