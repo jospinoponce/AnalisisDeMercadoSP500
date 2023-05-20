@@ -10,7 +10,6 @@ Se analizan los datos de las compañías presentes en el índice SP500 [(Standar
 <hr>
 
 
-
 ## 2. Recursos implementados
 
 Python Versión: 3.9<br>
@@ -33,7 +32,7 @@ El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
 
 - Se crean dos datasets para realizar el EDA: ( [**df.csv** ](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/datasets/df.csv) tiene los datos de todas las empresas del S&P 500 agrupado por año y precio final ajustado de la acción. ) & ([**df_day.csv** ](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/datasets/df_day.csv): almacena también los datos de las compañías pero las agrupa por día.)<br>
 
-*Los procesos realizados para el ETL están en el notebook:* [**1.ETL**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/1.ETL_report.ipynb)<hr>
+*Los procesos realizados para el ETL están en el notebook:* [**1.ETL**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/1.ETL_report.ipynb)
 
 ### 3.2 Análisis Exploratorio de datos EDA
 
@@ -75,7 +74,7 @@ Se determina que:
 
 *Los procesos realizados para el EDA están en el notebook:* [**2.EDA**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/2.EDA_report.ipynb)<hr>
 
-## 4 Resultados
+## 4. Resultados
 
 ### 4.1 Dashboard
 
