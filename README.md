@@ -9,7 +9,7 @@ Se analizan los datos de las compañías presentes en el índice SP500 [(Standar
 <hr>
 
 ## 2. Objetivos
-- Seleccionar tres compañias del S&P 500.
+- Analizarlas compañias del S&P 500 y seleccionar tres organizaciones.
 - Generar tres KPIs a las compañias seleccionadas.
 - Desarrollar un Dashboard para la visualización de los datos, métricas e indicadores. <hr>
 
