@@ -16,10 +16,10 @@ Se analizan los datos de las compañías presentes en el índice SP500 [(Standar
 
 ## 3. Recursos implementados
 
-Python Versión: 3.9<br>
-Packages:  Pandas, Matplotlib, Seaborn<br>
-Yahoo Finance API<br>
-Microsoft PowerBi <hr>
+Python Versión: 3.9.<br>
+Packages:  Pandas, Matplotlib, Seaborn.<br>
+Yahoo Finance API.<br>
+Microsoft PowerBi. <hr>
 
 ## 4. Desarrollo
 
