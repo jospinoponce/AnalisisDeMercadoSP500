@@ -1,25 +1,29 @@
 # <h1> Pj_05-002 Análisis de Mercado Bursátil a compañías pertenecientes al índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) </h1> 
-## **HENRY BOOTCAMP | Proyecto Individual Nº2**
-<hr>
 
-*El presente proyecto se desarrolla para dar cumplimiento a las actividades planteadas en la etapa de labs en el Bootcamp de Data Science de [Soy Henry](https://www.soyhenry.com/). Busca analizar la situación del mercado bursátil de los últimos 20 años y seleccionar compañías potenciales que puedan generar rendimientos de activos financieros al momento de llevar a cabo una inversión en el S&P 500.*<br>
+
+*El presente proyecto se desarrolla para dar cumplimiento a las actividades planteadas en la etapa de labs en el Bootcamp de Data Science de [Soy Henry](https://www.soyhenry.com/). Busca analizar la situación del mercado bursátil de los últimos 20 años y seleccionar compañías potenciales que puedan generar rendimientos de activos financieros al momento de llevar a cabo una inversión en el S&P 500.*<hr>
 
 ## 1. Introducción
 
 Se analizan los datos de las compañías presentes en el índice SP500 [(Standard & Poor's 500 Index)](https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview) en [Yahoo Finance](https://finance.yahoo.com/) e [Investing.com](https://www.investing.com/) para mediante el histórico de sus métricas durante los últimos 23 años en el mercado, establecer la selección de tres alternativas prometedoras que puedan tener panoramas favorables al momento de realizar una futura inversión. Se desarrolla un Dashboard en PowerBi que compara los aspectos más relevantes de las compañías seleccionadas.
 <hr>
 
+## 2. Objetivos
+- Seleccionar tres compañias del S&P 500.
+- Generar tres KPIs a las compañias seleccionadas.
+- Desarrollar un Dashboard para la visualización de los datos, métricas e indicadores. <hr>
 
-## 2. Recursos implementados
+
+## 3. Recursos implementados
 
 Python Versión: 3.9<br>
 Packages:  Pandas, Matplotlib, Seaborn<br>
 Yahoo Finance API<br>
 Microsoft PowerBi <hr>
 
-## 3. Desarrollo
+## 4. Desarrollo
 
-### 3.1 ETL Limpieza de datos
+### 4.1 ETL Limpieza de datos
 
 El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
 
@@ -27,16 +31,11 @@ El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
 **Historial de precio de acciones compañías S&P 500:** *(data extraída )* [Yahoo Finance](https://finance.yahoo.com/) e [Investing.com](https://www.investing.com/) .<br>
 
 - Se cargan los datos para su normalización (Tratamiento de nulos, valores duplicados, formateo de variables, entre otros..).<br>
-
-- Se relaciona el conjunto de datos.<br>
-
 - Se crean dos datasets para realizar el EDA: ( [**df.csv** ](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/datasets/df.csv) tiene los datos de todas las empresas del S&P 500 agrupado por año y precio final ajustado de la acción. ) & ([**df_day.csv** ](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/datasets/df_day.csv): almacena también los datos de las compañías pero las agrupa por día.)<br>
 
 *Los procesos realizados para el ETL están en el notebook:* [**1.ETL**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/1.ETL_report.ipynb)
 
-### 3.2 Análisis Exploratorio de datos EDA
-
-Se usan las librerías de Matplotlib y Seaborn para el desarrollo de gráficas que permitan analizar la distribución de los datos previamente transformados.<br>
+### 4.2 Análisis Exploratorio de datos EDA
 
 Se analiza  la rentabilidad promedio durante los últimos 23 años.
 
@@ -74,9 +73,9 @@ Se determina que:
 
 *Los procesos realizados para el EDA están en el notebook:* [**2.EDA**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/2.EDA_report.ipynb)<hr>
 
-## 4. Resultados
+## 5. Resultados
 
-### 4.1 Dashboard
+### 5.1 Dashboard
 
 Se seleccionan tres compañías (Monster Beverage, Tesla INC, Nvidia). Se analiza su data histórica de los últimos 5 años <br> 
 Para los criterios de selección se tiene en cuenta el presente impulso que tienen los sectores de Energía y Tecnología como el crecimiento que han tenido las empresas en los últimos años. 
